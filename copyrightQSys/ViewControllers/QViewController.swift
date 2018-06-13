@@ -10,6 +10,7 @@ import UIKit
 
 class QViewController: UIViewController {
     
+    @IBOutlet weak var abortButton: QButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,5 +26,9 @@ class QViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @objc func abortAction() {
+        
     }
 }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		255BCD5A20D0C70C001813D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BCD5920D0C70C001813D4 /* AppDelegate.swift */; };
-		255BCD5C20D0C70C001813D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BCD5B20D0C70C001813D4 /* ViewController.swift */; };
 		255BCD5F20D0C70C001813D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255BCD5D20D0C70C001813D4 /* Main.storyboard */; };
 		255BCD6120D0C70D001813D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255BCD6020D0C70D001813D4 /* Assets.xcassets */; };
 		255BCD6420D0C70D001813D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255BCD6220D0C70D001813D4 /* LaunchScreen.storyboard */; };
@@ -47,7 +46,6 @@
 /* Begin PBXFileReference section */
 		255BCD5620D0C70C001813D4 /* copyrightQSys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copyrightQSys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		255BCD5920D0C70C001813D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		255BCD5B20D0C70C001813D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		255BCD5E20D0C70C001813D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		255BCD6020D0C70D001813D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		255BCD6320D0C70D001813D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				25F38A8220D0CA5A00781F79 /* Components */,
 				25F38A7F20D0C9F700781F79 /* Extensions */,
 				255BCD5920D0C70C001813D4 /* AppDelegate.swift */,
-				255BCD5B20D0C70C001813D4 /* ViewController.swift */,
 				255BCD5D20D0C70C001813D4 /* Main.storyboard */,
 				255BCD6020D0C70D001813D4 /* Assets.xcassets */,
 				255BCD6220D0C70D001813D4 /* LaunchScreen.storyboard */,
@@ -415,7 +412,6 @@
 				25F38A8B20D0D0BD00781F79 /* PointButton.swift in Sources */,
 				25D449BB20D0EF2F0002199C /* QViewController.swift in Sources */,
 				25D449BD20D0EFEF0002199C /* ComponentBasics.swift in Sources */,
-				255BCD5C20D0C70C001813D4 /* ViewController.swift in Sources */,
 				25F38A8920D0CB0A00781F79 /* TapicEngine.swift in Sources */,
 				25F38A8120D0CA0900781F79 /* UIColor+HexColor.swift in Sources */,
 				255BCD5A20D0C70C001813D4 /* AppDelegate.swift in Sources */,
@@ -602,7 +598,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSys;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.copyrightQSys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,7 +617,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSys;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.copyrightQSys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -642,7 +638,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSysTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.copyrightQSysTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -664,7 +660,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSysTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.copyrightQSysTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -685,7 +681,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSysUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.copyrightQSysUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -706,7 +702,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSysUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.copyrightQSysUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad10_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,13 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Are you ready?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72r-NV-5bw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you ready?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72r-NV-5bw">
                                 <rect key="frame" x="338" y="388" width="437" height="58"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNu-J9-pEY" customClass="QButton" customModule="copyrightQSys" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNu-J9-pEY" customClass="QButton" customModule="copyrightQSys" customModuleProvider="target">
                                 <rect key="frame" x="426" y="642" width="261" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="9nP-N1-MHI"/>
@@ -64,7 +64,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx0-0n-HPz" customClass="PointButton" customModule="copyrightQSys" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx0-0n-HPz" customClass="PointButton" customModule="copyrightQSys" customModuleProvider="target">
                                 <rect key="frame" x="528" y="381" width="57" height="73"/>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -94,22 +94,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Yeaaaaaaaaaaaaaaaaahhhhhhhhhhhhhh!!!!!!!!!!!!!!!!!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKQ-Gi-1Pc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yeaaaaaaaaaaaaaaaaahhhhhhhhhhhhhh!!!!!!!!!!!!!!!!!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKQ-Gi-1Pc">
                                 <rect key="frame" x="0.0" y="257" width="1112" height="321"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDa-bS-719" customClass="QButton" customModule="copyrightQSys" customModuleProvider="target">
+                                <rect key="frame" x="954" y="745" width="126" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="VG1-AN-yU5"/>
+                                </constraints>
+                                <state key="normal" title="Abort"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="HKQ-Gi-1Pc" firstAttribute="leading" secondItem="PlK-AL-khv" secondAttribute="leading" id="6Cs-5G-3F7"/>
                             <constraint firstItem="HKQ-Gi-1Pc" firstAttribute="centerY" secondItem="PlK-AL-khv" secondAttribute="centerY" id="8Iw-gg-379"/>
                             <constraint firstAttribute="trailing" secondItem="HKQ-Gi-1Pc" secondAttribute="trailing" id="IKt-nn-w6u"/>
+                            <constraint firstItem="6AU-ci-WAw" firstAttribute="bottom" secondItem="QDa-bS-719" secondAttribute="bottom" constant="33" id="K2A-kI-gUw"/>
+                            <constraint firstItem="6AU-ci-WAw" firstAttribute="trailing" secondItem="QDa-bS-719" secondAttribute="trailing" constant="32" id="SJh-A5-gOu"/>
                             <constraint firstItem="HKQ-Gi-1Pc" firstAttribute="top" secondItem="6AU-ci-WAw" secondAttribute="top" constant="237" id="bb8-7O-GsQ"/>
+                            <constraint firstItem="QDa-bS-719" firstAttribute="leading" secondItem="6AU-ci-WAw" secondAttribute="leading" constant="954" id="mTd-tS-c6v"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6AU-ci-WAw"/>
                     </view>
+                    <connections>
+                        <outlet property="abortButton" destination="QDa-bS-719" id="giI-pZ-yka"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MY6-xP-7JW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
