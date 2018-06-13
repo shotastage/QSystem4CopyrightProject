@@ -14,6 +14,9 @@
 		255BCD6420D0C70D001813D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255BCD6220D0C70D001813D4 /* LaunchScreen.storyboard */; };
 		255BCD6F20D0C70D001813D4 /* copyrightQSysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BCD6E20D0C70D001813D4 /* copyrightQSysTests.swift */; };
 		255BCD7A20D0C70D001813D4 /* copyrightQSysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BCD7920D0C70D001813D4 /* copyrightQSysUITests.swift */; };
+		25D449B920D0EDD50002199C /* PlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D449B820D0EDD50002199C /* PlaybackViewController.swift */; };
+		25D449BB20D0EF2F0002199C /* QViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D449BA20D0EF2F0002199C /* QViewController.swift */; };
+		25D449BD20D0EFEF0002199C /* ComponentBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D449BC20D0EFEF0002199C /* ComponentBasics.swift */; };
 		25F38A8120D0CA0900781F79 /* UIColor+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F38A8020D0CA0900781F79 /* UIColor+HexColor.swift */; };
 		25F38A8420D0CA6A00781F79 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F38A8320D0CA6A00781F79 /* Button.swift */; };
 		25F38A8720D0CAD200781F79 /* ComponentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F38A8620D0CAD200781F79 /* ComponentButton.swift */; };
@@ -55,6 +58,9 @@
 		255BCD7520D0C70D001813D4 /* copyrightQSysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = copyrightQSysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		255BCD7920D0C70D001813D4 /* copyrightQSysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyrightQSysUITests.swift; sourceTree = "<group>"; };
 		255BCD7B20D0C70D001813D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D449B820D0EDD50002199C /* PlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
+		25D449BA20D0EF2F0002199C /* QViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QViewController.swift; sourceTree = "<group>"; };
+		25D449BC20D0EFEF0002199C /* ComponentBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentBasics.swift; sourceTree = "<group>"; };
 		25F38A8020D0CA0900781F79 /* UIColor+HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
 		25F38A8320D0CA6A00781F79 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		25F38A8620D0CAD200781F79 /* ComponentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentButton.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 		255BCD5820D0C70C001813D4 /* copyrightQSys */ = {
 			isa = PBXGroup;
 			children = (
+				25D449B720D0EDC10002199C /* ViewControllers */,
 				25F38A8520D0CAC300781F79 /* Components Infra */,
 				25F38A8220D0CA5A00781F79 /* Components */,
 				25F38A7F20D0C9F700781F79 /* Extensions */,
@@ -168,6 +175,15 @@
 			path = copyrightQSysUITests;
 			sourceTree = "<group>";
 		};
+		25D449B720D0EDC10002199C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				25D449B820D0EDD50002199C /* PlaybackViewController.swift */,
+				25D449BA20D0EF2F0002199C /* QViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		25F38A7F20D0C9F700781F79 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +206,7 @@
 			children = (
 				25F38A8620D0CAD200781F79 /* ComponentButton.swift */,
 				25F38A8820D0CB0A00781F79 /* TapicEngine.swift */,
+				25D449BC20D0EFEF0002199C /* ComponentBasics.swift */,
 			);
 			path = "Components Infra";
 			sourceTree = "<group>";
@@ -271,7 +288,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = MiXSTAGE;
+				ORGANIZATIONNAME = "Shota Shimazu";
 				TargetAttributes = {
 					255BCD5520D0C70C001813D4 = {
 						CreatedOnToolsVersion = 9.4;
@@ -396,10 +413,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				25F38A8B20D0D0BD00781F79 /* PointButton.swift in Sources */,
+				25D449BB20D0EF2F0002199C /* QViewController.swift in Sources */,
+				25D449BD20D0EFEF0002199C /* ComponentBasics.swift in Sources */,
 				255BCD5C20D0C70C001813D4 /* ViewController.swift in Sources */,
 				25F38A8920D0CB0A00781F79 /* TapicEngine.swift in Sources */,
 				25F38A8120D0CA0900781F79 /* UIColor+HexColor.swift in Sources */,
 				255BCD5A20D0C70C001813D4 /* AppDelegate.swift in Sources */,
+				25D449B920D0EDD50002199C /* PlaybackViewController.swift in Sources */,
 				25F38A8420D0CA6A00781F79 /* Button.swift in Sources */,
 				25F38A8720D0CAD200781F79 /* ComponentButton.swift in Sources */,
 			);
@@ -582,7 +602,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.mixstage.copyrightQSys;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,7 +621,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.mixstage.copyrightQSys;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -622,7 +642,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.mixstage.copyrightQSysTests;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSysTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -644,7 +664,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.mixstage.copyrightQSysTests;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSysTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -665,7 +685,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.mixstage.copyrightQSysUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSysUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -686,7 +706,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tokyo.mixstage.copyrightQSysUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.Shota Shimazu.copyrightQSysUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
